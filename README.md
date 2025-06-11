@@ -2,8 +2,11 @@
 A Python script for generating unique band names with user input.
 
 ## Sample Outputs
+These images are from various stages of developing the program, so the formatting varies. 
 
-![sample output 1]() ![sample output 2]()
+![sample output 1](/images/img2.png) 
+![sample output 2](/images/img3.png)
+![sample output 3](/images/img1.png)
 
 ## User Story
 As a user, I need help thinking of a name for my band. I want a program that will gather my name and other information from me then use that information to generate band names. The program should be flexible and unpredictable with what it outputs, but I also want it to follow certain band naming conventions.
