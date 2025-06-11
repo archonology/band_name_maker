@@ -1,4 +1,3 @@
-# This line of code will take an input using the input() function
 topics = ["color", "shape", "animal", "verb"]
 favorites = []
 name = input("What is your name? ")
@@ -21,7 +20,8 @@ def list_results():
         print(f"{i+1}. " + f.title())
     print("Your band name is:")
     if len(favorites) == 4:
-        print(f"{name.title()}'s {favorites[3].title()} {favorites[0].title()} {favorites[1].title()} {favorites[2].title()}")
+        print(f"{name.title()}'s {favorites[3].title()} {favorites[0].title()} {favorites[1].title()} "
+              f"{favorites[2].title()}")
     if len(favorites) == 3:
         print(f"{favorites[0].title()} {favorites[1].title()} {favorites[2].title()}s")
     elif len(favorites) == 2:
@@ -53,7 +53,7 @@ def get_fav(x):
         # input in a print statement). Here, I want the function to run after
         # so that it doesn't print:
         # "Zebra Red Circle Your favorites are "
-        # print("Your favorites are ", list_results())
+        # so this won't work: print("Your favorites are ", list_results())
         print("Your favorites are:")
         list_results()
         print("Goodbye!")
